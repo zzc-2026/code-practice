@@ -1,0 +1,18 @@
+//#include<stdio.h>
+//
+//int main()
+//{
+//	int a = 10;
+//	int* p = &a;
+//	printf("%d\n", *p);
+//	*p = 200;
+//	printf("%d\n", *p);
+//	printf("%d\n", a);
+//	char c = 'a';
+//	int* p1 = &c;
+//	long long n = 100;
+//	int* p2 = &n;
+//	printf("%zu\n", sizeof(p1));
+//	printf("%zu\n", sizeof(p2));
+//	return 0;
+//}
