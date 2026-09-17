@@ -1,0 +1,17 @@
+age = 11
+height = 172.567
+print("年龄%5d岁" % age)
+print("年龄%1d岁" % age)
+print("年龄%3.2d岁" % age)
+print("身高%3.2d厘米" % height)
+print("-" * 20)
+print("身高%7.2f厘米" % height)
+print("身高%5.2f厘米" % height)
+print("身高%.1f厘米" % height)
+print("-" * 20)
+print("年龄：%6d 岁" % age)
+print("身高：%6.2f 厘米" % height)
+print("-" * 20)
+print("您的余额为：%5d 元" % 100)
+print("您的余额为：%5d 元" % 1000)
+print("您的余额为：%5d 元" % 10000)

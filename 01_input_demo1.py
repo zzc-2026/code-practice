@@ -1,0 +1,6 @@
+print("你是谁？")
+name = input()
+print("我是：%s" % name)
+print("-" * 20)
+name = input("你是谁？")
+print("我是：%s" % name)
