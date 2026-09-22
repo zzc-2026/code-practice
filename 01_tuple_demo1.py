@@ -1,0 +1,13 @@
+(1, 3, 5, "itheima")
+t1 = (1, 2, 3, 6)
+print(f"t1的类型是：{type(t1)}")
+t1 = ()
+t2 = tuple()
+print(type(t1), type(t2))
+t1 = (1)
+print(type(t1))
+t1 = (1,)
+print(type(t1))
+t1 = ((1, 2, 3), (4, 5, 6))
+print(t1[0][0])
+# t1[1][1] = 6

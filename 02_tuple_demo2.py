@@ -1,0 +1,6 @@
+t1 = (1, 2, 3, 4, 5)
+print(t1.index(3))
+# print(t1.index(7))
+t1 = ("itheima", "黑马", "黑马", "黑马", "itheima")
+print(t1.count("黑马"))
+print(t1.count("heima"))

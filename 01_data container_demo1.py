@@ -1,0 +1,46 @@
+lst = [1, 3, 5, 7, 9]
+tup = (1, 3, 5, 7, 9)
+s_str = "itheima"
+s_set = {1, 3, 5, 7, 9}
+dic = {"1" : 11, "2" : 22, "3" : 33}
+print(f"{lst}, max = {max(lst)}")
+print(f"{tup}, max = {max(tup)}")
+print(f"{str}, max = {max(s_str)}")
+print(f"{set}, max = {max(s_set)}")
+print(f"{dic}, max = {max(dic)}")
+print(f"{lst}, min = {min(lst)}")
+print(f"{tup}, min = {min(tup)}")
+print(f"{str}, min = {min(s_str)}")
+print(f"{set}, min = {min(s_set)}")
+print(f"{dic}, min = {min(dic)}")
+print(f"tuple转list：{list(tup)}")
+print(f"string转list：{list(s_str)}")
+print(f"set转list：{list(s_set)}")
+print(f"dictionary转list：{list(dic)}")
+print(f"list转tuple：{tuple(lst)}")
+print(f"string转tuple：{tuple(s_str)}")
+print(f"set转tuple：{tuple(s_set)}")
+print(f"dictionary转tuple：{tuple(dic)}")
+print(f"list转string：{str(lst)}")
+print(f"tuple转string：{str(tup)}")
+print(f"set转string：{str(s_set)}")
+print(f"dictionary转string：{str(dic)}")
+print(f"list转set：{set(lst)}")
+print(f"tuple转set：{set(tup)}")
+print(f"string转set：{set(s_str)}")
+print(f"dictionary转set：{set(dic)}")
+lst = [5, 3, 1, 7, 2]
+tup = (5, 3, 1, 7, 2)
+s_str = "itheima"
+s_set = {5, 3, 1, 7, 2}
+dic = {"33" : 11, "cc" : 22, "bb" : 33}
+print(f"{lst}, 排序后： {sorted(lst)}")
+print(f"{tup}, 排序后： {sorted(tup)}")
+print(f"{s_str}, 排序后： {sorted(s_str)}")
+print(f"{s_set}, 排序后： {sorted(s_set)}")
+print(f"{dic}, 排序后： {sorted(dic)}")
+print(f"{lst}, 排序后（reverse = True）： {sorted(lst, reverse = True)}")
+print(f"{tup}, 排序后（reverse = True）： {sorted(tup, reverse = True)}")
+print(f"{s_str}, 排序后（reverse = True）： {sorted(s_str, reverse = True)}")
+print(f"{s_set}, 排序后（reverse = True）： {sorted(s_set, reverse = True)}")
+print(f"{dic}, 排序后（reverse = True）： {sorted(dic, reverse = True)}")
