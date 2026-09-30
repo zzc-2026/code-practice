@@ -1,0 +1,6 @@
+fr = open("D:/test.mp4", "rb")
+fw = open("E:/test.mp4", "wb")
+content = fr.read()
+fw.write(content)
+fr.close()
+fw.close()

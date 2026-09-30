@@ -1,0 +1,5 @@
+f = open("D:/hi.txt", "a", encoding = "UTF-8")
+f.write("Welcome to New York!" + "\n")
+f.write("Welcome to New York!" + "\n")
+f.flush()
+f.close()
