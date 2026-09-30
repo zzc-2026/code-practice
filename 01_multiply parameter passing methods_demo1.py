@@ -1,0 +1,10 @@
+def user_info(name, age, gender):
+    print(f"我叫{name}，今年{age}岁，性别为{gender}")
+user_info("小张", 18, "男")
+# user_info("小美", "女", 20)
+user_info(name = "小王", gender = "男", age = 19)
+user_info(age = 22, name = "小新", gender = "男")
+user_info("小强", gender = "男", age = 21)
+# user_info(gender = "男", 17, name = "小李")
+user_info("小赵", 16, gender = "男")
+# user_info(16, "小赵", gender = "男")
